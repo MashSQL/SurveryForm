@@ -27,7 +27,7 @@ export default async function Results() {
     if (parseInt(doc.data().out) <= 2) {
       out += 1;
     }
-    if (parseInt(doc.data().W_Movies) <= 2) {
+    if (parseInt(doc.data().W_Movie) <= 2) {
       movie += 1;
     }
     if (parseInt(doc.data().W_TV) <= 2) {
